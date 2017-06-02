@@ -12,6 +12,17 @@
 		95E32FFB1EE1A3570057EC51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E32FF91EE1A3570057EC51 /* Main.storyboard */; };
 		95E32FFD1EE1A3570057EC51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E32FFC1EE1A3570057EC51 /* Assets.xcassets */; };
 		95E330001EE1A3570057EC51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E32FFE1EE1A3570057EC51 /* LaunchScreen.storyboard */; };
+		95E330081EE1A84F0057EC51 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95E330071EE1A84F0057EC51 /* Info.plist */; };
+		95E330131EE1AFFE0057EC51 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E330091EE1AFFE0057EC51 /* QRCodeReader.swift */; };
+		95E330141EE1AFFE0057EC51 /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E3300A1EE1AFFE0057EC51 /* QRCodeReaderResult.swift */; };
+		95E330151EE1AFFE0057EC51 /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E3300B1EE1AFFE0057EC51 /* QRCodeReaderView.swift */; };
+		95E330161EE1AFFE0057EC51 /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E3300C1EE1AFFE0057EC51 /* QRCodeReaderViewContainer.swift */; };
+		95E330171EE1AFFE0057EC51 /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E3300D1EE1AFFE0057EC51 /* QRCodeReaderViewController.swift */; };
+		95E330181EE1AFFE0057EC51 /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E3300E1EE1AFFE0057EC51 /* QRCodeReaderViewControllerBuilder.swift */; };
+		95E330191EE1AFFE0057EC51 /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E3300F1EE1AFFE0057EC51 /* QRCodeReaderViewControllerDelegate.swift */; };
+		95E3301A1EE1AFFE0057EC51 /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E330101EE1AFFE0057EC51 /* ReaderOverlayView.swift */; };
+		95E3301B1EE1AFFE0057EC51 /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E330111EE1AFFE0057EC51 /* SwitchCameraButton.swift */; };
+		95E3301C1EE1AFFE0057EC51 /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E330121EE1AFFE0057EC51 /* ToggleTorchButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +32,17 @@
 		95E32FFA1EE1A3570057EC51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95E32FFC1EE1A3570057EC51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95E32FFF1EE1A3570057EC51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		95E330011EE1A3570057EC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E330071EE1A84F0057EC51 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E330091EE1AFFE0057EC51 /* QRCodeReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReader.swift; sourceTree = "<group>"; };
+		95E3300A1EE1AFFE0057EC51 /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderResult.swift; sourceTree = "<group>"; };
+		95E3300B1EE1AFFE0057EC51 /* QRCodeReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderView.swift; sourceTree = "<group>"; };
+		95E3300C1EE1AFFE0057EC51 /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewContainer.swift; sourceTree = "<group>"; };
+		95E3300D1EE1AFFE0057EC51 /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewController.swift; sourceTree = "<group>"; };
+		95E3300E1EE1AFFE0057EC51 /* QRCodeReaderViewControllerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewControllerBuilder.swift; sourceTree = "<group>"; };
+		95E3300F1EE1AFFE0057EC51 /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
+		95E330101EE1AFFE0057EC51 /* ReaderOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderOverlayView.swift; sourceTree = "<group>"; };
+		95E330111EE1AFFE0057EC51 /* SwitchCameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCameraButton.swift; sourceTree = "<group>"; };
+		95E330121EE1AFFE0057EC51 /* ToggleTorchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleTorchButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +80,27 @@
 				95E32FF91EE1A3570057EC51 /* Main.storyboard */,
 				95E32FFC1EE1A3570057EC51 /* Assets.xcassets */,
 				95E32FFE1EE1A3570057EC51 /* LaunchScreen.storyboard */,
-				95E330011EE1A3570057EC51 /* Info.plist */,
+				95E330071EE1A84F0057EC51 /* Info.plist */,
+				95E3301D1EE1B0060057EC51 /* QR Code reader */,
 			);
 			path = "QR reader";
+			sourceTree = "<group>";
+		};
+		95E3301D1EE1B0060057EC51 /* QR Code reader */ = {
+			isa = PBXGroup;
+			children = (
+				95E330091EE1AFFE0057EC51 /* QRCodeReader.swift */,
+				95E3300A1EE1AFFE0057EC51 /* QRCodeReaderResult.swift */,
+				95E3300B1EE1AFFE0057EC51 /* QRCodeReaderView.swift */,
+				95E3300C1EE1AFFE0057EC51 /* QRCodeReaderViewContainer.swift */,
+				95E3300D1EE1AFFE0057EC51 /* QRCodeReaderViewController.swift */,
+				95E3300E1EE1AFFE0057EC51 /* QRCodeReaderViewControllerBuilder.swift */,
+				95E3300F1EE1AFFE0057EC51 /* QRCodeReaderViewControllerDelegate.swift */,
+				95E330101EE1AFFE0057EC51 /* ReaderOverlayView.swift */,
+				95E330111EE1AFFE0057EC51 /* SwitchCameraButton.swift */,
+				95E330121EE1AFFE0057EC51 /* ToggleTorchButton.swift */,
+			);
+			name = "QR Code reader";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95E330081EE1A84F0057EC51 /* Info.plist in Resources */,
 				95E330001EE1A3570057EC51 /* LaunchScreen.storyboard in Resources */,
 				95E32FFD1EE1A3570057EC51 /* Assets.xcassets in Resources */,
 				95E32FFB1EE1A3570057EC51 /* Main.storyboard in Resources */,
@@ -137,8 +177,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95E3301C1EE1AFFE0057EC51 /* ToggleTorchButton.swift in Sources */,
+				95E3301A1EE1AFFE0057EC51 /* ReaderOverlayView.swift in Sources */,
 				95E32FF81EE1A3570057EC51 /* ViewController.swift in Sources */,
+				95E330181EE1AFFE0057EC51 /* QRCodeReaderViewControllerBuilder.swift in Sources */,
+				95E330131EE1AFFE0057EC51 /* QRCodeReader.swift in Sources */,
 				95E32FF61EE1A3570057EC51 /* AppDelegate.swift in Sources */,
+				95E330171EE1AFFE0057EC51 /* QRCodeReaderViewController.swift in Sources */,
+				95E330141EE1AFFE0057EC51 /* QRCodeReaderResult.swift in Sources */,
+				95E330151EE1AFFE0057EC51 /* QRCodeReaderView.swift in Sources */,
+				95E330191EE1AFFE0057EC51 /* QRCodeReaderViewControllerDelegate.swift in Sources */,
+				95E3301B1EE1AFFE0057EC51 /* SwitchCameraButton.swift in Sources */,
+				95E330161EE1AFFE0057EC51 /* QRCodeReaderViewContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
